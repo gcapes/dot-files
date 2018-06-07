@@ -129,19 +129,5 @@ if [ -x /usr/bin/mint-fortune ]; then
      /usr/bin/mint-fortune
 fi
 
-# added by Anaconda3 installer
-export PATH="/home/mbexegc2/anaconda3/bin:$PATH"
-
-# TeX Live
-export MANPATH=/usr/local/texlive/2017/texmf-dist/doc/man:$MANPATH
-export INFOPATH=/usr/local/texlive/2017/texmf-dist/doc/info:$INFOPATH
-export PATH=/usr/local/texlive/2017/bin/x86_64-linux:$PATH
-
-# MATLAB
-export PATH=/usr/local/matlab/R2017a/bin:$PATH
-# MATLAB NAG toolbox
-export LD_LIBRARY_PATH=/opt/NAG/MBL6I25DNL/MBL6I25DNL/mex.a64:$LD_LIBRARY_PATH
-export NAG_KUSARI_FILE=$HOME/nag.lic
-export PATH=/opt/pycharm-community-2017.3.3/bin/:$PATH
-export PATH=/usr/local/nodejs/8.11.2/bin:$PATH
-export PATH=~/makefile2graph/:$PATH
+# Add paths
+. ${HOME}/setups/bash_paths
