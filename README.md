@@ -1,6 +1,3 @@
 # Installation
-- Clone this repo into ${HOME}.
-- From ${HOME}, link the .bashrc file
-	```
-	ln -s ${HOME}/setups/bashrc ${HOME}/.bashrc
-	```
+- Clone this repo into ${HOME}
+- Source `setup.sh`, which backs up the original `.bashrc` and links to this one.
