@@ -63,7 +63,7 @@ if [ "$color_prompt" = yes ]; then
         # Default PS1 for Linux Mint:
         # PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\] \[\033[01;34m\]\w \$\[\033[00m\] '
 
-        PREGIT='${debian_chroot:+($debian_chroot)}\[\033[01;34m\]\W\[\033[00m\]'
+        PREGIT='${debian_chroot:+($debian_chroot)}\[\033[01m\]\W\[\033[00m\]'
         WINDOW_TITLE='\[\e]0;\u@\h:\W \a\]'
         POSTGIT=' \$ \[\033[00m\]'
         export PROMPT_COMMAND='__git_ps1 "$PREGIT" "$POSTGIT$WINDOW_TITLE"'
