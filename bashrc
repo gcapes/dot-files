@@ -107,7 +107,8 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-. ${HOME}/setups/bash_aliases
+BASH_SETUP_DIR=${HOME}/bash_setup
+. ${BASH_SETUP_DIR}/bash_aliases
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
@@ -125,7 +126,7 @@ if [ -x /usr/bin/mint-fortune ]; then
 fi
 
 # Add paths
-. ${HOME}/setups/bash_paths
+. ${BASH_SETUP_DIR}/bash_paths
 
 export GIT_PS1_SHOWDIRTYSTATE=true
 export GIT_PS1_SHOWUNTRACKEDFILES=true
