@@ -66,7 +66,7 @@ if [ "$color_prompt" = yes ]; then
         PREGIT='${debian_chroot:+($debian_chroot)}\[\033[01m\]\W\[\033[00m\]'
         WINDOW_TITLE='\[\e]0;\u@\h:\W \a\]'
         POSTGIT=' \$ \[\033[00m\]'
-        export PROMPT_COMMAND='__git_ps1 "$PREGIT" "$POSTGIT$WINDOW_TITLE"'
+        export PROMPT_COMMAND='__git_ps1 "${CONDA_PROMPT_MODIFIER}${PREGIT}" "${POSTGIT}${WINDOW_TITLE}"'
     fi
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h \w \$ '
