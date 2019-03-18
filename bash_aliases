@@ -1,7 +1,7 @@
+DROPBOX="~/Dropbox\ \(The\ University\ of\ Manchester\)"
 alias drop='cd ~/Dropbox\ \(The\ University\ of\ Manchester\)'
-alias mega='cd ~/MEGAsync_UoM'
-alias train='cd ~/MEGAsync_UoM/rit-training'
-alias course='cd ~/MEGAsync_UoM/rit-training/course-material'
-alias robo='cd ~/MEGAsync_UoM/ioc-robota/robota'
+alias train='cd ~/Dropbox\ \(The\ University\ of\ Manchester\)/training'
+alias course='cd ~/Dropbox\ \(The\ University\ of\ Manchester\)/training/course-material'
+alias robo='cd ~/Dropbox\ \(The\ University\ of\ Manchester\)/ioc/robota'
 alias csf2='ssh -X mbexegc2@csf2.itservices.manchester.ac.uk'
 alias csf3='ssh -X mbexegc2@csf3.itservices.manchester.ac.uk'
