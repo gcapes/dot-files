@@ -6,4 +6,5 @@ alias robo='cd ~/Dropbox\ \(The\ University\ of\ Manchester\)/ioc/robota; source
 alias csf2='ssh -X mbexegc2@csf2.itservices.manchester.ac.uk'
 alias csf3='ssh -X mbexegc2@csf3.itservices.manchester.ac.uk'
 alias matlab2017='/usr/local/matlab/R2017a/bin/matlab'
+alias matlab2018='/usr/local/matlab/R2018a/bin/matlab'
 alias macmini='ssh -X gerardcapes@cspc033.cs.man.ac.uk'
