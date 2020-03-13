@@ -8,7 +8,7 @@ export PATH=/usr/local/matlab/R2019a/bin:$PATH
 
 # NAG toolbox
 export LD_LIBRARY_PATH=${HOME}/NAG/MBL6I25DNL/mex.a64:$LD_LIBRARY_PATH
-export NAG_KUSARI_FILE=$HOME/nag.lic
+export NAG_KUSARI_FILE=$HOME/NAG/nag.lic
 
 # Python
 export PATH=${HOME}/anaconda3/bin:$PATH
