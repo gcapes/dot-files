@@ -56,6 +56,13 @@ if [ -n "$force_color_prompt" ]; then
     fi
 fi
 
+set_active_venv() {
+    export ACTIVE_VENV=""
+    if [ "$VIRTUAL_ENV" != "" ]; then
+        export ACTIVE_VENV="(`basename \"$VIRTUAL_ENV\"`) "
+    fi
+}
+
 if [ "$color_prompt" = yes ]; then
     if [[ ${EUID} == 0 ]] ; then
         PS1='${debian_chroot:+($debian_chroot)}\[\033[01;31m\]\h\[\033[01;34m\] \W \$\[\033[00m\] '
@@ -66,7 +73,7 @@ if [ "$color_prompt" = yes ]; then
         PREGIT='${debian_chroot:+($debian_chroot)}\[\033[01m\]\W\[\033[00m\]'
         WINDOW_TITLE='\[\e]0;\u@\h:\W \a\]'
         POSTGIT=' \$ \[\033[00m\]'
-        export PROMPT_COMMAND='__git_ps1 "${CONDA_PROMPT_MODIFIER}${PREGIT}" "${POSTGIT}${WINDOW_TITLE}"'
+        export PROMPT_COMMAND='set_active_venv; __git_ps1 "${ACTIVE_VENV}${CONDA_PROMPT_MODIFIER}${PREGIT}" "${POSTGIT}${WINDOW_TITLE}"'
     fi
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h \w \$ '
@@ -132,4 +139,5 @@ export GIT_PS1_SHOWDIRTYSTATE=true
 export GIT_PS1_SHOWUNTRACKEDFILES=true
 export GIT_PS1_SHOWUPSTREAM="auto"
 export GIT_PS1_SHOWCOLORHINTS=true
+export VIRTUAL_ENV_DISABLE_PROMPT=true
 . ${HOME}/anaconda3/etc/profile.d/conda.sh
