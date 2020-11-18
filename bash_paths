@@ -4,7 +4,7 @@ export INFOPATH=/usr/local/texlive/2019/texmf-dist/doc/info:$INFOPATH
 export PATH=/usr/local/texlive/2019/bin/x86_64-linux:$PATH
 
 # MATLAB
-export PATH=/usr/local/matlab/R2019a/bin:$PATH
+export PATH=/usr/local/matlab/R2020a/bin:$PATH
 
 # NAG toolbox
 export LD_LIBRARY_PATH=${HOME}/NAG/MBL6I25DNL/mex.a64:$LD_LIBRARY_PATH
