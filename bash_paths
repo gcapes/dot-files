@@ -19,3 +19,6 @@ export PATH=~/makefile2graph:$PATH
 
 # Shell scripts
 export PATH=${HOME}/shell-scripts:${PATH}
+
+# Ruby
+export PATH=/snap/bin:$PATH
