@@ -140,4 +140,4 @@ export GIT_PS1_SHOWUNTRACKEDFILES=true
 export GIT_PS1_SHOWUPSTREAM="auto"
 export GIT_PS1_SHOWCOLORHINTS=true
 export VIRTUAL_ENV_DISABLE_PROMPT=true
-. ${HOME}/anaconda3/etc/profile.d/conda.sh
+. ${HOME}/anaconda3.8/etc/profile.d/conda.sh
