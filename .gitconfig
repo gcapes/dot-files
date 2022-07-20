@@ -1,0 +1,13 @@
+[user]
+	email = gerard.capes@manchester.ac.uk
+	name = Gerard Capes
+[core]
+	editor = vim
+[diff]
+	tool = meld
+[merge]
+	tool = meld
+[difftool]
+	prompt = false
+[alias]
+	mc = merge --no-ff
