@@ -114,7 +114,7 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-BASH_SETUP_DIR=${HOME}/bash_setup
+BASH_SETUP_DIR=${HOME}/dot-files
 . ${BASH_SETUP_DIR}/bash_aliases
 
 # enable programmable completion features (you don't need to enable
