@@ -20,7 +20,7 @@ for dot_file_path in dot_file_paths:
         if not os.path.islink(link):
             if os.path.isfile(link):
                 backup_file = os.path.join(home, filename + "_backup")
-                print('Creating back up file', backup_file)
+                print('Creating back up file:', backup_file)
                 shutil.move(link, backup_file)
-            print('Creating symlink', link, '->', dot_file_path)
+            print('Creating symlink:', link, '->', dot_file_path)
             os.symlink(dot_file_path, link)
