@@ -13,6 +13,8 @@ export NAG_KUSARI_FILE=$HOME/NAG/nag.lic
 # Python
 export PATH=${HOME}/software/python/3.10.5/bin:$PATH
 export PATH=${HOME}/software/pycharm-2022.1.3/bin:$PATH
+# virtualenv installed here:
+export PATH=${HOME}/.local/bin:$PATH
 
 export PATH=/usr/local/nodejs/8.11.2/bin:$PATH
 export PATH=~/software/makefile2graph:$PATH
