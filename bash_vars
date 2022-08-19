@@ -1,0 +1,8 @@
+export GIT_PS1_SHOWDIRTYSTATE=true
+export GIT_PS1_SHOWUNTRACKEDFILES=true
+export GIT_PS1_SHOWUPSTREAM="auto"
+export GIT_PS1_SHOWCOLORHINTS=true
+export VIRTUAL_ENV_DISABLE_PROMPT=true
+export PIPENV_VENV_IN_PROJECT=1
+export NLTK_DATA=/home/mbexegc2/software/python/nltk_data
+

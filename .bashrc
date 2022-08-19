@@ -135,9 +135,6 @@ fi
 # Add paths
 . ${BASH_SETUP_DIR}/bash_paths
 
-export GIT_PS1_SHOWDIRTYSTATE=true
-export GIT_PS1_SHOWUNTRACKEDFILES=true
-export GIT_PS1_SHOWUPSTREAM="auto"
-export GIT_PS1_SHOWCOLORHINTS=true
-export VIRTUAL_ENV_DISABLE_PROMPT=true
-export PIPENV_VENV_IN_PROJECT=1
+# Set environment variables
+. ${BASH_SETUP_DIR}/bash_vars
+
