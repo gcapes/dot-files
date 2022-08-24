@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 # Back up original dot files in home directory,
-# and link to modified versions in this repo.
+# and link to custom versions in this repo.
 
 import os
 import shutil

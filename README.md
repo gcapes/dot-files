@@ -1,3 +1,4 @@
 # Installation
 - Clone this repo into ${HOME}
-- Source `setup.sh`, which backs up the original `.bashrc` and links to this one.
+- Execute `./link_dot_files.py`, which backs up the original dot files
+  and links to the versions in this repo.
