@@ -1,9 +1,5 @@
 # MATLAB
-export PATH=/usr/local/matlab/R2021a/bin:$PATH
-
-# NAG toolbox
-export LD_LIBRARY_PATH=${HOME}/NAG/MBL6I25DNL/mex.a64:$LD_LIBRARY_PATH
-export NAG_KUSARI_FILE=$HOME/NAG/nag.lic
+export PATH=/usr/local/MATLAB/R2023a/bin:$PATH
 
 # Python
 export PATH=${HOME}/software/python/3.10.5/bin:$PATH
