@@ -18,3 +18,5 @@
 	ds = difftool --staged
 	dts = difftool --staged
 	ca = commit --amend
+[apply]
+	whitespace = fix
