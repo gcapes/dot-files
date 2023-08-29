@@ -11,3 +11,10 @@
 	prompt = false
 [alias]
 	mc = merge --no-ff
+	ap = add -p
+	dt = difftool
+	d = difftool
+	s = status
+	ds = difftool --staged
+	dts = difftool --staged
+	ca = commit --amend
