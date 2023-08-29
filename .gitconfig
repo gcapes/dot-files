@@ -18,5 +18,7 @@
 	ds = difftool --staged
 	dts = difftool --staged
 	ca = commit --amend
+[credential]
+	helper = cache
 [apply]
 	whitespace = fix
