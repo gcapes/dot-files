@@ -1,5 +1,5 @@
 # MATLAB
-export PATH=/home/mbexegc2/software/matlab/R2023a/bin:$PATH
+export PATH=/home/mbexegc2/software/matlab/R2023b/bin:$PATH
 
 # Python
 export PATH=${HOME}/software/python/3.10.5/bin:$PATH
