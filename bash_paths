@@ -7,11 +7,13 @@ export PATH=${HOME}/software/pycharm-2022.1.3/bin:$PATH
 # virtualenv and poetry
 export PATH=${HOME}/.local/bin:$PATH
 
-export PATH=/usr/local/nodejs/8.11.2/bin:$PATH
-export PATH=~/software/makefile2graph:$PATH
-
 # Shell scripts
 export PATH=${HOME}/shell-scripts:${PATH}
 
 # Ruby
 export PATH=/snap/bin:$PATH
+
+export PATH=/usr/local/nodejs/8.11.2/bin:$PATH
+export PATH=~/software/makefile2graph:$PATH
+export PATH=/home/mbexegc2/software/DREAM3D-6.5.171-Linux-x86_64/bin:$PATH
+export PATH=~/software/wtf:$PATH
