@@ -1,5 +1,6 @@
 alias csf3='ssh -X mbexegc2@csf3.itservices.manchester.ac.uk'
 alias csf4='ssh -X mbexegc2@csf4.itservices.manchester.ac.uk'
+alias restart_gp='sudo systemctl restart gpd'
 alias icsf='ssh -X mbexegc2@incline256.itservices.manchester.ac.uk'
 alias teaching='PS1="$ ";PROMPT_COMMAND=""'
 alias makefile_dag='make -Bnd | make2graph | dot -Tpng -o makefile_DAG.png'
