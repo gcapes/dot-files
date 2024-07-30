@@ -18,6 +18,12 @@
 	ds = difftool --staged
 	dts = difftool --staged
 	ca = commit --amend
+	dm = !git branch --merged | grep -E -v '(^\\*|master|main|gh-pages|develop|dev)' | xargs git branch -d
+	dmr = "!git fetch --prune; git branch -r --merged | grep -E -v '(^\\*|master|main|gh-pages|develop|dev)' | grep origin | sed 's#origin/##' | xargs git push --delete origin"
+	# Delete merged test: print delete local branches command
+	dm-t = !git branch --merged | grep -E -v '(^\\*|master|main|gh-pages|develop|dev)' | xargs echo git branch -d
+	# Delete merged remote test: print delete remote branches command
+	dmr-t = "!git fetch --prune; git branch -r --merged | grep -E -v '(^\\*|master|main|gh-pages|develop|dev)' | grep origin | sed 's#origin/##' | xargs echo git push --delete origin"
 [credential]
 	helper = cache
 [apply]
