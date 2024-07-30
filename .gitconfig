@@ -28,3 +28,5 @@
 	helper = cache
 [apply]
 	whitespace = fix
+[pull]
+	rebase = false
